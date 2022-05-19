@@ -129,11 +129,21 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero-1\/hero-1-city.svg" : {
+    "\/deploy\/img\/search\/hero-1-city.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/hero-1\/hero-1-city.svg",
+      "oAP" : "\/deploy\/img\/search\/hero-1-city.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/search\/search-icon2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/search\/search-icon2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
