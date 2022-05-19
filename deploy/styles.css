@@ -385,3 +385,9 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+    Tabs
+============= */
+#tabs {
+  background-color: aqua;
+}
