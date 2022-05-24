@@ -360,12 +360,31 @@ ul li {
   list-style: none;
 }
 
+.global-grid {
+  display: grid;
+  grid-template-columns: 24px auto 24px;
+  grid-template-areas: ". global-grid .";
+}
+.global-grid > div {
+  grid-area: global-grid;
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
 /* =============
     Buttons
 ============= */
+button {
+  margin: 0px;
+  padding: 0px;
+}
+
 /* =============
     Forms
 ============= */
@@ -396,6 +415,17 @@ textarea {
 /* =============
     Search
 ============= */
+#search #searchbar {
+  display: flex;
+}
+#search #searchbar input {
+  width: 100%;
+  box-sizing: border-box;
+}
+#search img {
+  width: 100%;
+}
+
 /* =============
     Events
 ============= */
@@ -407,6 +437,23 @@ textarea {
 ============= */
 #tabs {
   background-color: cornflowerblue;
+}
+#tabs #tab-section ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+#tabs #buttons {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: repeat(6, auto);
+}
+#tabs #buttons ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(6, auto);
+}
+#tabs #buttons button {
+  align-items: center;
 }
 
 /* =============
