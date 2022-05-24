@@ -2,12 +2,34 @@
     Craigs
 ============= */
 #craigs{
+    img{
+        
+    }
     background-color: cornflowerblue;
     section{
         ul{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-rows: repeat(3, auto);
+
             li{
+                section{
+                    width: 100%;
+                }
                 background-color: blue;
             }
         }
+    }
+}
+
+.map{
+    img{
+        width: 100%;
+    }
+}
+
+.listing-img{
+    img{
+        width: 100%;
     }
 }

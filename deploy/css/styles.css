@@ -412,6 +412,10 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer #major-links {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 /* =============
     Search
 ============= */
@@ -431,6 +435,9 @@ textarea {
 ============= */
 #events section ul {
   background-color: cornflowerblue;
+}
+#events section ul li {
+  display: flex;
 }
 /* =============
     Tabs
@@ -462,6 +469,22 @@ textarea {
 #craigs {
   background-color: cornflowerblue;
 }
+#craigs section ul {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: repeat(3, auto);
+}
 #craigs section ul li {
   background-color: blue;
+}
+#craigs section ul li section {
+  width: 100%;
+}
+
+.map img {
+  width: 100%;
+}
+
+.listing-img img {
+  width: 100%;
 }
