@@ -369,6 +369,24 @@ ul li {
   grid-area: global-grid;
 }
 
+.show-for-md {
+  display: none;
+}
+@media (min-width: 768px) {
+  .show-for-md {
+    display: block;
+  }
+}
+
+.hide-for-md {
+  display: block;
+}
+@media (min-width: 768px) {
+  .hide-for-md {
+    display: none;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -433,11 +451,59 @@ textarea {
 /* =============
     Events
 ============= */
-#events section ul {
+@media (min-width: 768px) {
+  #events {
+    display: grid;
+    grid-template-columns: auto 80vw auto;
+    grid-template-areas: ". events .";
+  }
+}
+@media (min-width: 1200px) {
+  #events {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+@media (min-width: 768px) {
+  #events > div {
+    grid-area: events;
+  }
+}
+#events > div #outer-grid #top {
+  display: flex;
+  background-color: aqua;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+#events > div #outer-grid #top aside {
+  margin-left: auto;
+}
+#events > div #outer-grid #top aside ul {
+  display: flex;
+}
+#events > div #outer-grid #top aside ul li {
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  #events > div #button {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+  }
+}
+#events > div #button aside {
+  background-color: purple;
+}
+#events > div #button section {
+  height: 100%;
+}
+#events > div #button section ul {
   background-color: cornflowerblue;
 }
-#events section ul li {
+#events > div #button section ul li {
   display: flex;
+}
+#events > div #button section ul li aside {
+  background-color: transparent;
 }
 /* =============
     Tabs

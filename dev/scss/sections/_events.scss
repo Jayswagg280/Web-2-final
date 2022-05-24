@@ -2,15 +2,83 @@
     Events
 ============= */
 #events{
-    section{
-        ul{
-            background-color: cornflowerblue;
-            li{
-                display: flex;
-                p{
+    @include md{
+        display: grid;
+        grid-template-columns: auto 80vw auto;
+        grid-template-areas: ". events .";
+    }
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+
+    > div {
+      
+
+      @include md{
+        grid-area: events;
+      }
+  
+     
+  
+      #outer-grid {
+       
+        
+  
+        #top {
+          display: flex;
+          background-color: aqua;
+          padding: 20px 0;
+          width: 100%;
+          box-sizing: border-box;
+          section {
+          }
+          aside {
+            margin-left: auto;
+  
+            ul {
+              display: flex;
+              li {
+                margin-right: 20px;
+              }
+            }
+          }
+        }
+    }
+  
+        #button{
+         
+
+  
+          @include md {
+            display: grid;
+            grid-template-columns: 10% auto 10%;
+          }
+
+          aside{
+            background-color: purple;
+          }
+          section{
+            height: 100%;
+            ul{
+
+                @include md{
                     
                 }
+                background-color: cornflowerblue;
+                li{
+                    aside{
+                        background-color: transparent;
+                    }
+                    display: flex;
+                    p{
+                        
+                    }
+                }
             }
+          }
         }
+      
     }
 }

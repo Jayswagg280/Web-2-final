@@ -20,3 +20,19 @@ ul{
         grid-area: global-grid;
     }
 }
+
+.show-for-md {
+    display: none;
+  
+    @include md {
+        display: block;
+    }
+}
+
+.hide-for-md {
+    display: block;
+
+    @include md {
+        display: none;
+    }
+}
