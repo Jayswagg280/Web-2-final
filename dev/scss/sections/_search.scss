@@ -2,38 +2,88 @@
     Search
 ============= */
 
-#search{
+// #search{
     
         
-            #searchbar{
+//             #searchbar{
 
-                @include md{
-                    display: grid;
-                    grid-template-columns: 184 auto 184;
-                    grid-template-areas: ". searchbar .";
-                }
-                display: flex;
-                input{
-                    width: 80%;
+//                 @include md{
+//                     display: grid;
+//                     grid-template-columns: 184 auto 184;
+//                     grid-template-areas: ". searchbar .";
+//                 }
+//                 display: flex;
+//                 input{
+//                     width: 80%;
+//                     box-sizing: border-box;
                     
+//                 }
+//                 >div{
+//                     @include md{
+//                         grid-area: searchbar;
+//                     }
                     
-                }
-                >div{
-                    @include md{
-                        grid-area: searchbar;
-                    }
-                    
-                }
+//                 }
 
-            }
+//             }
 
         
         
     
    
-    img{
-        width: 100%;
-    }
-}
+//     img{
+//         width: 100%;
+//     }
+// }
 
+
+#search{
+    background-image: url('../img/search/hero-1-city.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+
+    #search-top{
+        padding-left: 16px;
+        padding-top: 16px;
+        
+        button{
+            border: 2px solid white;
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 20px;
+            padding: 16px;
+        }
+    }
+
+    #search-bottom{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 100px;
+        form{
+            div{
+                border: 3px solid white;
+                background-color: rgba(0,0,0,0.5);
+                border-radius: 60px;
+                padding: 16px;
+                margin-top: 50px;
+
+                display: flex;
+
+                input{
+                    background-color: transparent;
+                    border: none;   
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                    margin-left: auto;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }   
+}
 

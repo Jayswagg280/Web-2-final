@@ -4,7 +4,8 @@
 #events{
     @include md{
         display: grid;
-        grid-template-columns: auto 80vw auto;
+        //grid-template-columns: auto 80vw auto;
+
         grid-template-areas: ". events .";
     }
 
@@ -64,7 +65,8 @@
             ul{
 
                 @include md{
-                    
+                    display: grid;
+                    grid-template-columns: auto auto auto auto auto auto auto;
                 }
                 background-color: cornflowerblue;
                 li{
@@ -72,9 +74,20 @@
                         background-color: transparent;
                     }
                     display: flex;
-                    p{
-                        
+                    @include md{
+                      flex-direction: column;
                     }
+                    p{
+                    
+                    }
+
+                }
+                #sun{
+                  p{
+                    @include md{
+                      margin-top: auto;  
+                    }
+                  }
                 }
             }
           }
