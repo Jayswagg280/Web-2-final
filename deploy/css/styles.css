@@ -440,9 +440,20 @@ textarea {
 #search #searchbar {
   display: flex;
 }
+@media (min-width: 768px) {
+  #search #searchbar {
+    display: grid;
+    grid-template-columns: 184 auto 184;
+    grid-template-areas: ". searchbar .";
+  }
+}
 #search #searchbar input {
-  width: 100%;
-  box-sizing: border-box;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  #search #searchbar > div {
+    grid-area: searchbar;
+  }
 }
 #search img {
   width: 100%;

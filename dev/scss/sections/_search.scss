@@ -4,15 +4,29 @@
 
 #search{
     
-       
+        
             #searchbar{
+
+                @include md{
+                    display: grid;
+                    grid-template-columns: 184 auto 184;
+                    grid-template-areas: ". searchbar .";
+                }
                 display: flex;
                 input{
-                    width: 100%;
-                    box-sizing: border-box;
+                    width: 80%;
+                    
                     
                 }
+                >div{
+                    @include md{
+                        grid-area: searchbar;
+                    }
+                    
+                }
+
             }
+
         
         
     
