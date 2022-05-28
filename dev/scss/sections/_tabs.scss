@@ -3,20 +3,71 @@
 ============= */
 
 #tabs{
-    background-color: cornflowerblue;
+    margin-bottom: 100px;
+    @include md{
+        grid-template-columns: auto 672px auto;
+    }
+    @include lg{
+        grid-template-columns: auto 900px auto;
+    }
+    @include xl{
+        grid-template-columns: auto 1120px auto;
+    }
+    @include xxl{
+        grid-template-columns: auto 1184px auto;
+    }
+    
 
     #tab-section{
         ul{
             display: grid;
             grid-template-columns: auto auto auto auto auto auto;
+            li{
+
+            }
         }
     }
 
     #buttons{
+        margin-top: 10px;
+        background-color: var(--light-blue);
+        border: 6px solid var(--mid-blue);
+        border-radius: 8px;
         ul{
+           
+            
+            li{
+                img{
+                    width: 30px;
+                    @include md{
+                        width: 50px;
+                    }
+                    @include lg{
+                        width: 76px;
+                    }
+                }
+            }
+            gap: 8px;
+            margin: 18px 18px;
+            border-radius: 8px;
+            
+
             display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: repeat(6,auto);
+
+        @include md{
+            gap: 12px;
+        }
+        @include xl{
+            gap: 16px;
+        }
+
+        @include xl{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows: repeat(4,auto);
+        }
         }
         display: grid;
         grid-template-rows: repeat(6,auto);

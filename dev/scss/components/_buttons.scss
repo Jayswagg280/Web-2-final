@@ -6,3 +6,59 @@ button{
     margin: 0px;
     padding: 0px;
 }
+.lb-tab{
+    color: var(--white);
+    background-color: var(--mid-blue);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    border: none;
+
+    @include md{
+        width: 100px;
+        padding: 12px 0px;
+    }
+
+    @include lg{
+        width: 150px;
+        padding: 18px 0px;
+    }
+
+    @include xxl{
+        padding: 21px 0px;
+    }
+   
+
+}
+
+.db-tab{
+    color: var(--white);
+    background-color: var(--dark-blue);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    border: none;
+
+    @include md{
+        width: 100px;
+        padding: 12px 0px;
+    }
+
+    @include lg{
+        width: 150px;
+        padding: 18px 0px;
+    }
+
+    @include xxl{
+        padding: 21px 0px;
+    }
+   
+
+}
+.service{
+    color: var(--white);
+    background-color: var(--mid-blue);
+    border-radius: 8px;
+    text-align: center;
+    border: none; 
+}

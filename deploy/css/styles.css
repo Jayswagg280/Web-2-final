@@ -403,12 +403,77 @@ h1, h2, h3, h4, h5 {
   padding: 0px;
 }
 
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
 /* =============
     Buttons
 ============= */
 button {
   margin: 0px;
   padding: 0px;
+}
+
+.lb-tab {
+  color: var(--white);
+  background-color: var(--mid-blue);
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  border: none;
+}
+@media (min-width: 768px) {
+  .lb-tab {
+    width: 100px;
+    padding: 12px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .lb-tab {
+    width: 150px;
+    padding: 18px 0px;
+  }
+}
+@media (min-width: 1440px) {
+  .lb-tab {
+    padding: 21px 0px;
+  }
+}
+
+.db-tab {
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  border: none;
+}
+@media (min-width: 768px) {
+  .db-tab {
+    width: 100px;
+    padding: 12px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .db-tab {
+    width: 150px;
+    padding: 18px 0px;
+  }
+}
+@media (min-width: 1440px) {
+  .db-tab {
+    padding: 21px 0px;
+  }
+}
+
+.service {
+  color: var(--white);
+  background-color: var(--mid-blue);
+  border-radius: 8px;
+  text-align: center;
+  border: none;
 }
 
 /* =============
@@ -446,20 +511,23 @@ textarea {
     Search
 ============= */
 #search {
+  margin-bottom: 100px;
+  color: var(--white);
   background-image: url("../img/search/hero-1-city.jpg");
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 100vh;
 }
 #search #search-top {
   padding-left: 16px;
   padding-top: 16px;
 }
 #search #search-top button {
+  color: var(--white);
   border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  padding: 16px;
+  padding: 8px 12px;
 }
 #search #search-bottom {
   width: 50%;
@@ -471,21 +539,38 @@ textarea {
   border: 3px solid white;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 60px;
-  padding: 16px;
+  padding: 10px;
   margin-top: 50px;
   display: flex;
 }
 #search #search-bottom form div input {
   background-color: transparent;
   border: none;
+  padding: 0px 10px;
 }
 #search #search-bottom form div button {
   background-color: transparent;
   border: none;
   margin-left: auto;
+  padding: 0px;
 }
 #search #search-bottom form div button img {
-  width: 100%;
+  width: 60%;
+}
+@media (min-width: 768px) {
+  #search #search-bottom form div button img {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  #search #search-bottom form div button img {
+    width: 80%;
+  }
+}
+@media (min-width: 1440px) {
+  #search #search-bottom form div button img {
+    width: 100%;
+  }
 }
 
 /* =============
@@ -674,20 +759,77 @@ textarea {
     Tabs
 ============= */
 #tabs {
-  background-color: cornflowerblue;
+  margin-bottom: 100px;
+}
+@media (min-width: 768px) {
+  #tabs {
+    grid-template-columns: auto 672px auto;
+  }
+}
+@media (min-width: 1024px) {
+  #tabs {
+    grid-template-columns: auto 900px auto;
+  }
+}
+@media (min-width: 1200px) {
+  #tabs {
+    grid-template-columns: auto 1120px auto;
+  }
+}
+@media (min-width: 1440px) {
+  #tabs {
+    grid-template-columns: auto 1184px auto;
+  }
 }
 #tabs #tab-section ul {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
 }
 #tabs #buttons {
+  margin-top: 10px;
+  background-color: var(--light-blue);
+  border: 6px solid var(--mid-blue);
+  border-radius: 8px;
   display: grid;
   grid-template-rows: repeat(6, auto);
 }
 #tabs #buttons ul {
+  gap: 8px;
+  margin: 18px 18px;
+  border-radius: 8px;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: repeat(6, auto);
+}
+#tabs #buttons ul li img {
+  width: 30px;
+}
+@media (min-width: 768px) {
+  #tabs #buttons ul li img {
+    width: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  #tabs #buttons ul li img {
+    width: 76px;
+  }
+}
+@media (min-width: 768px) {
+  #tabs #buttons ul {
+    gap: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  #tabs #buttons ul {
+    gap: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  #tabs #buttons ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: repeat(4, auto);
+  }
 }
 #tabs #buttons button {
   width: 100%;

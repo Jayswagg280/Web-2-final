@@ -38,20 +38,24 @@
 
 
 #search{
+    margin-bottom: 100px;
+    color: var(--white);
     background-image: url('../img/search/hero-1-city.jpg');
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 100vh;
 
     #search-top{
         padding-left: 16px;
         padding-top: 16px;
         
         button{
+            color: var(--white);
             border: 2px solid white;
             background-color: rgba(0,0,0,0.5);
             border-radius: 20px;
-            padding: 16px;
+            padding: 8px 12px;
+
         }
     }
 
@@ -65,21 +69,34 @@
                 border: 3px solid white;
                 background-color: rgba(0,0,0,0.5);
                 border-radius: 60px;
-                padding: 16px;
+                padding: 10px;
                 margin-top: 50px;
 
                 display: flex;
 
                 input{
                     background-color: transparent;
-                    border: none;   
+                    border: none;
+                    padding: 0px 10px;   
                 }
                 button{
                     background-color: transparent;
                     border: none;
                     margin-left: auto;
+                    padding: 0px;
+
                     img{
-                        width: 100%;
+                        width: 60%;
+                        @include md{
+                            width: 50%;
+                        }
+                        @include lg{
+                            width: 80%;
+                        }
+                        @include xxl{
+                            width: 100%;
+                        }
+                      
                     }
                 }
             }
