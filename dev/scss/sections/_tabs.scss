@@ -4,27 +4,35 @@
 
 #tabs{
     margin-bottom: 100px;
-    @include md{
-        grid-template-columns: auto 672px auto;
-    }
-    @include lg{
-        grid-template-columns: auto 900px auto;
-    }
-    @include xl{
-        grid-template-columns: auto 1120px auto;
-    }
-    @include xxl{
-        grid-template-columns: auto 1184px auto;
-    }
+    // @include md{
+    //     grid-template-columns: auto 672px auto;
+    // }
+    // @include lg{
+    //     grid-template-columns: auto 900px auto;
+    // }
+    // @include xl{
+    //     grid-template-columns: auto 1120px auto;
+    // }
+    // @include xxl{
+    //     grid-template-columns: auto 1184px auto;
+    // }
     
 
     #tab-section{
         ul{
             display: grid;
             grid-template-columns: auto auto auto auto auto auto;
-            li{
+            gap: 8px;
 
+            @include md{
+                gap: 12px;   
             }
+            @include xxl{
+                gap: 16px;
+            }
+            // li{
+
+            // }
         }
     }
 
@@ -53,7 +61,7 @@
             
 
             display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: auto auto auto auto;
         grid-template-rows: repeat(6,auto);
 
         @include md{

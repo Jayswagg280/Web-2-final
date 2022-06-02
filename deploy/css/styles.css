@@ -370,8 +370,13 @@ ul li {
 
 .global-grid {
   display: grid;
-  grid-template-columns: 24px auto 24px;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". global-grid .";
+}
+@media (min-width: 1440px) {
+  .global-grid {
+    grid-template-columns: auto 1440px auto;
+  }
 }
 .global-grid > div {
   grid-area: global-grid;
@@ -423,22 +428,18 @@ button {
   text-align: center;
   padding: 8px;
   border: none;
+  width: 100%;
+  height: 30px;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .lb-tab {
-    width: 100px;
-    padding: 12px 0px;
-  }
-}
-@media (min-width: 1024px) {
-  .lb-tab {
-    width: 150px;
-    padding: 18px 0px;
+    height: 40px;
   }
 }
 @media (min-width: 1440px) {
   .lb-tab {
-    padding: 21px 0px;
+    height: 60px;
   }
 }
 
@@ -449,22 +450,18 @@ button {
   text-align: center;
   padding: 8px;
   border: none;
+  width: 100%;
+  height: 30px;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .db-tab {
-    width: 100px;
-    padding: 12px 0px;
-  }
-}
-@media (min-width: 1024px) {
-  .db-tab {
-    width: 150px;
-    padding: 18px 0px;
+    height: 40px;
   }
 }
 @media (min-width: 1440px) {
   .db-tab {
-    padding: 21px 0px;
+    height: 60px;
   }
 }
 
@@ -500,13 +497,59 @@ textarea {
 /* =============
     Header
 ============= */
+#header section {
+  display: flex;
+  padding: 12px 0px;
+}
+#header section #right-icons {
+  margin-left: auto;
+}
+
+section #line-1 {
+  background-color: var(--dark-blue);
+  height: 16px;
+}
+section #line-2 {
+  background-color: var(--mid-blue);
+  height: 16px;
+}
+
 /* =============
     Footer
 ============= */
+section #one {
+  background-color: var(--light-blue);
+  height: 16px;
+}
+section #two {
+  background-color: var(--dark-blue);
+  height: 8px;
+}
+
+#footer {
+  background-color: var(--footer-blue);
+  color: var(--white);
+  padding: 20px 0px;
+}
 #footer #major-links {
   display: grid;
   grid-template-columns: auto auto auto;
+  border-bottom: 1px solid var(--white);
+  margin-bottom: 20px;
 }
+#footer #major-links #left {
+  margin-bottom: 20px;
+}
+#footer #major-links #center {
+  text-align: center;
+}
+#footer #major-links #right {
+  text-align: right;
+}
+#footer #bottom-row {
+  display: flex;
+}
+
 /* =============
     Search
 ============= */
@@ -578,22 +621,6 @@ textarea {
 ============= */
 #events {
   margin-bottom: 100px;
-}
-@media (min-width: 768px) {
-  #events {
-    display: grid;
-    grid-template-areas: ". events .";
-  }
-}
-@media (min-width: 1200px) {
-  #events {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-@media (min-width: 768px) {
-  #events > div {
-    grid-area: events;
-  }
 }
 #events > div #outer-grid #top {
   display: grid;
@@ -674,12 +701,13 @@ textarea {
   }
 }
 #events > div #button section ul li p {
-  padding-left: 20px;
+  padding-top: 20px;
   text-align: center;
   color: var(--mid-blue);
 }
 @media (min-width: 768px) {
   #events > div #button section ul li p {
+    padding-top: 0px;
     padding-left: 0px;
     margin: 0px 10px;
   }
@@ -689,8 +717,15 @@ textarea {
     text-align: center;
   }
 }
+#events > div #button section ul #sun p {
+  margin-left: auto;
+  margin-right: 10%;
+}
 @media (min-width: 768px) {
   #events > div #button section ul #sun p {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 320px;
   }
 }
@@ -699,8 +734,12 @@ textarea {
     text-align: center;
   }
 }
+#events > div #button section ul #mon p {
+  margin-left: 40%;
+}
 @media (min-width: 768px) {
   #events > div #button section ul #mon p {
+    margin-left: 0px;
     margin-top: 170px;
   }
 }
@@ -709,8 +748,12 @@ textarea {
     text-align: center;
   }
 }
+#events > div #button section ul #tue p {
+  margin-left: 10%;
+}
 @media (min-width: 768px) {
   #events > div #button section ul #tue p {
+    margin-left: 0px;
     margin-top: 70px;
   }
 }
@@ -719,8 +762,12 @@ textarea {
     text-align: center;
   }
 }
+#events > div #button section ul #wed p {
+  margin-left: 50%;
+}
 @media (min-width: 768px) {
   #events > div #button section ul #wed p {
+    margin-left: 0px;
     margin-top: 220px;
   }
 }
@@ -729,8 +776,12 @@ textarea {
     text-align: center;
   }
 }
+#events > div #button section ul #thu p {
+  margin-left: 60%;
+}
 @media (min-width: 768px) {
   #events > div #button section ul #thu p {
+    margin-left: 0px;
     margin-top: 250px;
   }
 }
@@ -739,8 +790,14 @@ textarea {
     text-align: center;
   }
 }
+#events > div #button section ul #fri p {
+  margin-left: auto;
+  margin-right: 5%;
+}
 @media (min-width: 768px) {
   #events > div #button section ul #fri p {
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: auto;
   }
 }
@@ -749,8 +806,12 @@ textarea {
     text-align: center;
   }
 }
+#events > div #button section ul #sat p {
+  margin-left: 10%;
+}
 @media (min-width: 768px) {
   #events > div #button section ul #sat p {
+    margin-left: 0px;
     margin-top: 70px;
   }
 }
@@ -761,29 +822,20 @@ textarea {
 #tabs {
   margin-bottom: 100px;
 }
-@media (min-width: 768px) {
-  #tabs {
-    grid-template-columns: auto 672px auto;
-  }
-}
-@media (min-width: 1024px) {
-  #tabs {
-    grid-template-columns: auto 900px auto;
-  }
-}
-@media (min-width: 1200px) {
-  #tabs {
-    grid-template-columns: auto 1120px auto;
-  }
-}
-@media (min-width: 1440px) {
-  #tabs {
-    grid-template-columns: auto 1184px auto;
-  }
-}
 #tabs #tab-section ul {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
+  gap: 8px;
+}
+@media (min-width: 768px) {
+  #tabs #tab-section ul {
+    gap: 12px;
+  }
+}
+@media (min-width: 1440px) {
+  #tabs #tab-section ul {
+    gap: 16px;
+  }
 }
 #tabs #buttons {
   margin-top: 10px;
@@ -798,7 +850,7 @@ textarea {
   margin: 18px 18px;
   border-radius: 8px;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: auto auto auto auto;
   grid-template-rows: repeat(6, auto);
 }
 #tabs #buttons ul li img {
@@ -850,25 +902,117 @@ textarea {
 /* =============
     Craigs
 ============= */
-#craigs {
-  background-color: cornflowerblue;
+#title {
+  background-color: var(--mid-blue);
+  margin-bottom: 50px;
+  color: var(--white);
 }
-#craigs section ul {
+#title h2 {
+  padding: 16px;
+}
+#title > div {
+  background-color: var(--dark-blue);
+  height: 16px;
+}
+
+#craigs {
+  color: var(--white);
+}
+#craigs aside {
+  margin-bottom: 20px;
+  background-color: var(--mid-blue);
+  border-radius: 8px;
+}
+#craigs aside #map-icons {
+  padding: 0px 8px;
+  display: flex;
+}
+#craigs aside #map-icons section {
+  margin-left: auto;
+}
+#craigs #listings ul {
   display: grid;
   grid-template-columns: 50% auto;
   grid-template-rows: repeat(3, auto);
+  gap: 10px;
 }
-#craigs section ul li {
-  background-color: blue;
+#craigs #listings ul li {
+  background-color: var(--dark-blue);
+  border-radius: 8px;
+  box-sizing: border-box;
 }
-#craigs section ul li section {
-  width: 100%;
-}
-
 .map img {
+  border: 4px solid var(--dark-blue);
+  border-radius: 8px;
   width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
 }
 
-.listing-img img {
-  width: 100%;
+#listing1 {
+  background-image: url("../img/craigs-near-me/furn-1.jpg");
+  height: 300px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#listing2 {
+  background-image: url("../img/craigs-near-me/furn-2.jpg");
+  height: 300px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#listing3 {
+  background-image: url("../img/craigs-near-me/furn-3.jpg");
+  height: 300px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#listing4 {
+  background-image: url("../img/craigs-near-me/furn-4.jpg");
+  height: 300px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#listing5 {
+  background-image: url("../img/craigs-near-me/furn-5.jpg");
+  height: 300px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#listing6 {
+  background-image: url("../img/craigs-near-me/furn-6.jpg");
+  height: 300px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.listing-info {
+  border: 3px solid var(--white);
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 8px;
 }

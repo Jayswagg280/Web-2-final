@@ -3,24 +3,24 @@
 ============= */
 #events{
   margin-bottom: 100px;
-    @include md{
-        display: grid;
-        //grid-template-columns: auto 80vw auto;
+    // @include md{
+    //     display: grid;
+    //     //grid-template-columns: auto 80vw auto;
 
-        grid-template-areas: ". events .";
-    }
+    //     grid-template-areas: ". events .";
+    // }
 
-    @include xl{
-        grid-template-columns: auto 1200px auto;
-    }
+    // @include xl{
+    //     grid-template-columns: auto 1200px auto;
+    // }
 
 
     > div {
       
 
-      @include md{
-        grid-area: events;
-      }
+      // @include md{
+      //   grid-area: events;
+      // }
   
      
   
@@ -111,10 +111,12 @@
                       flex-direction: column;
                     }
                     p{
-                    padding-left: 20px;
+                    padding-top: 20px;
+                    
                     text-align: center;
                     color: var(--mid-blue);
                     @include md{
+                      padding-top: 0px;
                       padding-left: 0px;
                       margin: 0px 10px;
                     }
@@ -127,7 +129,12 @@
                     text-align: center;
                   }
                   p{
+                    margin-left: auto;
+                    margin-right: 10%;
                     @include md{
+                      padding: 0px;
+                      margin-left: 0px;
+                      margin-right: 0px;
                       margin-top: 320px;
                     }
                   }
@@ -138,7 +145,9 @@
                     text-align: center;
                   }
                   p{
+                    margin-left: 40%;
                     @include md{
+                      margin-left: 0px;
                       margin-top: 170px;  
                     }
                   }
@@ -149,7 +158,9 @@
                     text-align: center;
                   }
                   p{
+                    margin-left: 10%;
                     @include md{
+                      margin-left: 0px;
                       margin-top: 70px;  
                     }
                   }
@@ -160,7 +171,9 @@
                     text-align: center;
                   }
                   p{
+                    margin-left: 50%;
                     @include md{
+                      margin-left: 0px;
                       margin-top: 220px;  
                     }
                   }
@@ -171,7 +184,9 @@
                     text-align: center;
                   }
                   p{
+                    margin-left: 60%;
                     @include md{
+                      margin-left: 0px;
                       margin-top: 250px;  
                     }
                   }
@@ -182,7 +197,11 @@
                     text-align: center;
                   }
                   p{
+                    margin-left: auto;
+                    margin-right: 5%;
                     @include md{
+                      margin-left: 0px;
+                      margin-right: 0px;
                       margin-top: auto;  
                     }
                   }
@@ -193,7 +212,9 @@
                     text-align: center;
                   }
                   p{
+                    margin-left: 10%;
                     @include md{
+                      margin-left: 0px;
                       margin-top: 70px;  
                     }
                   }

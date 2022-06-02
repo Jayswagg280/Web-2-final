@@ -3,7 +3,21 @@
 ============= */
 
 #header{
-    img{
-        
+    section{
+        display: flex;
+        padding: 12px 0px;
+        #right-icons{
+            margin-left: auto;
+        }
+    }
+}
+section{
+    #line-1 {
+        background-color: var(--dark-blue);
+        height: 16px;
+    }
+    #line-2 {
+        background-color: var(--mid-blue);
+        height: 16px;
     }
 }
