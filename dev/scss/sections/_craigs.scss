@@ -1,9 +1,10 @@
 /* =============
     Craigs
 ============= */
+
 #title{
     background-color: var(--mid-blue);
-    margin-bottom: 50px;
+    
     color: var(--white);
     h2{
         padding: 16px;
@@ -15,18 +16,9 @@
 }
 #craigs{
     color: var(--white);
-    // @include md{
-    //     grid-template-columns: 16px auto 16px;
-    // }
-    // // @include lg{
-    // //     grid-template-columns: auto 900px auto;
-    // // }
-    // // @include xl{
-    // //     grid-template-columns: auto 1120px auto;
-    // // }
-    // @include xxl{
-    //     grid-template-columns: auto 1440px auto;
-    // }
+    background-color: var(--baby-blue);
+    padding-top: 50px;
+    padding-bottom: 150px;
     
     img{
         
@@ -64,6 +56,27 @@
     }
 }
 
+#see-more{
+    >div{
+        margin-top: -300px;
+        position: relative;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 46%, rgba(255,255,255,0.5) 76%, rgba(255,255,255,0) 100%);
+        height: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        @include lg{
+            height: 300px;
+        }
+        button{
+            
+            
+            background-color: transparent;
+            border: none;
+        }  
+    }
+}
+
 .map{
     
     img{
@@ -78,67 +91,103 @@
 #listing1{
 
     background-image: url("../img/craigs-near-me/furn-1.jpg");
-    height: 300px;
+    height: 100px;
     background-position: center;
     border: 8px solid var(--dark-blue);
     background-size: cover;
     box-sizing: border-box;
     border-radius: 12px;
+    @include md{
+        height: 200px;
+    }
+    @include lg{
+        height: 300px;
+    }
     
 }
 #listing2{
 
     background-image: url("../img/craigs-near-me/furn-2.jpg");
-    height: 300px;
+    height: 100px;
     background-position: center;
     border: 8px solid var(--dark-blue);
     background-size: cover;
     box-sizing: border-box;
     border-radius: 12px;
+    @include md{
+        height: 200px;
+    }
+    @include lg{
+        height: 300px;
+    }
     
 }
 #listing3{
 
     background-image: url("../img/craigs-near-me/furn-3.jpg");
-    height: 300px;
+    height: 100px;
     background-position: center;
     border: 8px solid var(--dark-blue);
     background-size: cover;
     box-sizing: border-box;
     border-radius: 12px;
+    @include md{
+        height: 200px;
+    }
+    @include lg{
+        height: 300px;
+    }
     
 }
 #listing4{
 
     background-image: url("../img/craigs-near-me/furn-4.jpg");
-    height: 300px;
+    height: 100px;
     background-position: center;
     border: 8px solid var(--dark-blue);
     background-size: cover;
     box-sizing: border-box;
     border-radius: 12px;
+    @include md{
+        height: 200px;
+    }
+    @include lg{
+        height: 300px;
+    }
     
 }
 #listing5{
 
     background-image: url("../img/craigs-near-me/furn-5.jpg");
-    height: 300px;
+    height: 100px;
     background-position: center;
     border: 8px solid var(--dark-blue);
     background-size: cover;
     box-sizing: border-box;
     border-radius: 12px;
+    @include md{
+        height: 200px;
+    }
+    @include lg{
+        height: 300px;
+    }
     
 }
 #listing6{
 
     background-image: url("../img/craigs-near-me/furn-6.jpg");
-    height: 300px;
+    height: 100px;
     background-position: center;
     border: 8px solid var(--dark-blue);
     background-size: cover;
     box-sizing: border-box;
     border-radius: 12px;
+    @include md{
+        height: 200px;
+    }
+    @include lg{
+        height: 300px;
+    }
     
 }
 

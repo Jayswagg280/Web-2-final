@@ -2,48 +2,14 @@
     Search
 ============= */
 
-// #search{
-    
-        
-//             #searchbar{
-
-//                 @include md{
-//                     display: grid;
-//                     grid-template-columns: 184 auto 184;
-//                     grid-template-areas: ". searchbar .";
-//                 }
-//                 display: flex;
-//                 input{
-//                     width: 80%;
-//                     box-sizing: border-box;
-                    
-//                 }
-//                 >div{
-//                     @include md{
-//                         grid-area: searchbar;
-//                     }
-                    
-//                 }
-
-//             }
-
-        
-        
-    
-   
-//     img{
-//         width: 100%;
-//     }
-// }
-
 
 #search{
     margin-bottom: 100px;
     color: var(--white);
     background-image: url('../img/search/hero-1-city.jpg');
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-position: center bottom;
+    height: 70vh;
 
     #search-top{
         padding-left: 16px;
@@ -60,10 +26,13 @@
     }
 
     #search-bottom{
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
         text-align: center;
         margin-top: 160px;
+        @include md{
+            width: 50%;
+        }
         form{
             div{
                 border: 3px solid white;
