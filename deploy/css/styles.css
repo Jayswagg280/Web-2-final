@@ -608,74 +608,14 @@ section #two {
 /* =============
     Search
 ============= */
-#search {
+#about {
   margin-bottom: 100px;
   color: var(--white);
-  background-image: url("../img/search/hero-1-city.jpg");
+  background-image: url("../img/about/city-day.jpg");
   background-size: cover;
-  background-position: center bottom;
-  height: 70vh;
+  background-position: center;
+  height: 80vh;
 }
-#search #search-top {
-  padding-left: 16px;
-  padding-top: 16px;
-}
-#search #search-top button {
-  color: var(--white);
-  border: 2px solid white;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  padding: 8px 12px;
-}
-#search #search-bottom {
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 160px;
-}
-@media (min-width: 768px) {
-  #search #search-bottom {
-    width: 50%;
-  }
-}
-#search #search-bottom form div {
-  border: 3px solid white;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 60px;
-  padding: 10px;
-  margin-top: 50px;
-  display: flex;
-}
-#search #search-bottom form div input {
-  background-color: transparent;
-  border: none;
-  padding: 0px 10px;
-}
-#search #search-bottom form div button {
-  background-color: transparent;
-  border: none;
-  margin-left: auto;
-  padding: 0px;
-}
-#search #search-bottom form div button img {
-  width: 60%;
-}
-@media (min-width: 768px) {
-  #search #search-bottom form div button img {
-    width: 50%;
-  }
-}
-@media (min-width: 1024px) {
-  #search #search-bottom form div button img {
-    width: 80%;
-  }
-}
-@media (min-width: 1440px) {
-  #search #search-bottom form div button img {
-    width: 100%;
-  }
-}
-
 /* =============
     Events
 ============= */

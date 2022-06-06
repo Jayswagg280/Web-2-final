@@ -29,282 +29,18 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/craigs-near-me\/bookmark-icon.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/bookmark-icon.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/chevron-down.png" : {
-      "ft" : 32768,
-      "iS" : 394,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/chevron-down.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/dot-menu.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/dot-menu.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/filter.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/filter.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-1.jpg" : {
+    "\/deploy\/img\/about\/city-day.jpg" : {
       "ft" : 16384,
-      "iS" : 49335,
+      "iS" : 952548,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-1.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 67217,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-2.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-2.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 77516,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-3.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-3.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-4.jpg" : {
-      "ft" : 16384,
-      "iS" : 101158,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-4.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-4.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-5.jpg" : {
-      "ft" : 16384,
-      "iS" : 79055,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-5.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-5.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-6.jpg" : {
-      "ft" : 16384,
-      "iS" : 67910,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-6.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/furn-6.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/furn-6.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/map-pin.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/map-pin.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/Map.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/Map.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/craigs-near-me\/See More.png" : {
-      "ft" : 32768,
-      "iS" : 1379,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/See More.png",
+      "oAP" : "\/deploy\/img\/about\/city-day.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/see-more.png" : {
-      "ft" : 32768,
-      "iS" : 1836,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/see-more.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/craigs-near-me\/settings.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/craigs-near-me\/settings.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/events\/left-arrow.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/events\/left-arrow.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/events\/left-arrow(2).svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/events\/left-arrow(2).svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/events\/right-arrow.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/events\/right-arrow.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/events\/right-arrow(2).svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/events\/right-arrow(2).svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/deploy\/img\/header\/desktop-logo.svg" : {
       "ft" : 2097152,
@@ -336,244 +72,21 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/search\/hero-1-city.jpg" : {
-      "ft" : 16384,
-      "iS" : 866362,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/search\/hero-1-city.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/search\/hero-1-city.svg" : {
+    "\/deploy\/img\/scams\/left-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/search\/hero-1-city.svg",
+      "oAP" : "\/deploy\/img\/scams\/left-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/search\/search-icon2.svg" : {
+    "\/deploy\/img\/scams\/right-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/search\/search-icon2.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/automotive.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/automotive.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/beauty.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/beauty.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/cell:moblie.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/cell:moblie.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/computer.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/computer.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/creative.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/creative.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/cycle.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/cycle.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/education.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/education.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/event.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/event.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/farm.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/farm.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/financial.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/financial.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/health.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/health.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/household.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/household.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/legal.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/legal.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/lessons.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/lessons.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/local-shipping.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/local-shipping.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/marine.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/marine.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/pets.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/pets.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/real-estate.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/real-estate.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/skills-trade.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/skills-trade.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/small-buisiness.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/small-buisiness.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/tabs\/travel.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/tabs\/travel.svg",
+      "oAP" : "\/deploy\/img\/scams\/right-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -621,36 +134,44 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/dev\/content\/craigs.kit" : {
+    "\/dev\/content\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/craigs.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/about.html",
       "oF" : 0
     },
-    "\/dev\/content\/events.kit" : {
+    "\/dev\/content\/account.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/events.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/account.html",
       "oF" : 0
     },
-    "\/dev\/content\/search.kit" : {
+    "\/dev\/content\/postings.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/search.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/postings.html",
       "oF" : 0
     },
-    "\/dev\/content\/tabs.kit" : {
+    "\/dev\/content\/safety.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/tabs.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/safety.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/scams.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/scams.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -854,7 +375,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_craigs.scss" : {
+    "\/dev\/scss\/sections\/_about.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -863,13 +384,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_craigs.css",
+      "oAP" : "\/dev\/scss\/sections\/_about.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_events.scss" : {
+    "\/dev\/scss\/sections\/_account.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -878,13 +399,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_events.css",
+      "oAP" : "\/dev\/scss\/sections\/_account.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_search.scss" : {
+    "\/dev\/scss\/sections\/_postings.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -893,13 +414,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_search.css",
+      "oAP" : "\/dev\/scss\/sections\/_postings.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_tabs.scss" : {
+    "\/dev\/scss\/sections\/_safety.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -908,7 +429,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_tabs.css",
+      "oAP" : "\/dev\/scss\/sections\/_safety.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_scams.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_scams.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
