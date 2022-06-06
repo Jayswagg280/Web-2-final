@@ -1,20 +1,34 @@
 /* =============
-    Search
+    About
 ============= */
 
 
 #about{
-    margin-bottom: 100px;
+    
     color: var(--white);
     background-image: url('../img/about/city-day.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
 
+
     #about-us{
         
+        padding-top: 200px;
+        
+        
     }
-
     
+    
+}
+section{
+    #line-1 {
+        background-color: var(--dark-blue);
+        height: 16px;
+    }
+    #line-2 {
+        background-color: var(--mid-blue);
+        height: 16px;
+    }
 }
 
