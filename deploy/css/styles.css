@@ -908,3 +908,63 @@ section #line-2 {
 /* =============
     Account
 ============= */
+#account {
+  color: var(--white);
+  background-image: url("../img/account/sunset.jpg");
+  background-size: cover;
+}
+#account > div {
+  padding: 100px 0;
+}
+#account > div h2 {
+  font-weight: 400;
+  margin: 50px 0px;
+}
+#account > div #log-in {
+  margin-bottom: 50px;
+  width: 100%;
+}
+#account > div #log-in ul li {
+  margin: 20px 0;
+}
+#account > div #create-ac ul li {
+  margin: 20px 0;
+}
+#account > div #create-ac ul #terms {
+  width: 40%;
+  display: flex;
+  justify-content: right;
+  gap: 16px;
+}
+#account > div #create-ac ul #terms section {
+  height: 32px;
+  width: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: var(--white) solid 2px;
+  border-radius: 8px;
+}
+#account > div #create-ac ul #terms aside {
+  height: 182px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: var(--white) solid 2px;
+  border-radius: 8px;
+}
+
+.input {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: var(--white) solid 2px;
+  border-radius: 8px;
+  padding: 16px;
+  width: 40%;
+}
+
+.button {
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: var(--white) solid 2px;
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+.button h3 {
+  font-weight: 400;
+}

@@ -1,3 +1,79 @@
 /* =============
     Account
 ============= */
+#account{
+    color: var(--white);
+    background-image: url('../img/account/sunset.jpg');
+    background-size: cover;
+    >div{
+        padding: 100px 0;
+        @include md{
+            
+        }
+        h2{
+            font-weight: 400;
+            margin: 50px 0px;
+        }
+        #log-in{
+
+            margin-bottom: 50px;
+            width: 100%;
+            ul{
+                
+                li{
+                margin: 20px 0;    
+                }
+            }
+
+        }
+        #create-ac{
+            ul{
+                
+                li{
+                    margin: 20px 0;
+                }
+                #terms{
+                    width: 40%;
+                    display: flex;
+                    justify-content: right;
+                    gap: 16px;
+                    section{
+                        height: 32px;
+                        width: 32px;
+                        background-color: rgba(0,0,0,0.5);
+                        border: var(--white) solid 2px;
+                        border-radius: 8px;
+                    }
+                    aside{
+                        height: 182px;
+                        background-color: rgba(0,0,0,0.5);
+                        border: var(--white) solid 2px;
+                        border-radius: 8px;
+                        
+                    }
+                }
+            }
+
+        }
+
+
+    }
+}
+
+.input{
+    background-color: rgba(0,0,0,0.5);
+    border: var(--white) solid 2px;
+    border-radius: 8px;
+    padding: 16px;
+    width: 40%;
+}
+.button{
+    h3{
+        font-weight: 400;
+    }
+    color: var(--white);
+    background-color: rgba(0,0,0,0.5);
+    border: var(--white) solid 2px;
+    border-radius: 8px;
+    padding: 16px 24px;
+}
