@@ -1010,6 +1010,15 @@ section #two {
   background-color: var(--mid-blue);
   border-radius: 8px;
 }
+#craigs aside #map {
+  background-image: url("../img/craigs-near-me/map.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid var(--dark-blue);
+  border-radius: 8px;
+  border-radius: 8px;
+}
 #craigs aside #map-icons {
   padding: 0px 8px;
   display: flex;
@@ -1045,14 +1054,6 @@ section #two {
 #see-more > div button {
   background-color: transparent;
   border: none;
-}
-
-.map img {
-  border: 4px solid var(--dark-blue);
-  border-radius: 8px;
-  width: 100%;
-  border-radius: 8px;
-  box-sizing: border-box;
 }
 
 #listing1 {
