@@ -15,6 +15,11 @@
     #about-us{
         
         padding-top: 200px;
+        p{
+            @include lg{
+                width: 70%;
+            }
+        }
         
         
     }

@@ -2,3 +2,77 @@
     Scams
 ============= */
 
+
+#avoid-scams{
+    color: var(--footer-blue);
+    >div{
+        #wtd{
+            text-align: center;
+            ul{
+                margin: 50px;
+                @include md{
+                    margin: 100px;
+                }
+                li{
+                    border-bottom: var(--footer-blue) solid 1px;
+                    @include md{
+                        margin: 20px;
+                    }
+                    
+                    p{
+                        font-weight: 700;
+                        padding: 20px;
+                        @include md{
+                            padding-bottom: 40px;
+                        }
+
+                    }
+                    
+                }
+                #voice-mails{
+                    border-color: transparent;
+                }
+            }
+        }
+        #line{
+            background-color: var(--mid-blue);
+            height: 2px;
+            margin: 50px 0;
+        }
+        #rec{
+            margin: 50px;
+            @include md{
+                margin: 100px;
+            }
+            >div{
+                
+                ul{
+                    li{
+                        margin: 16px 0;
+                        p{
+                            width: 70%;
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+#examples{
+
+}
+
+.title{
+    background-color: var(--mid-blue);
+    
+    color: var(--white);
+    h2{
+        padding: 16px 0;
+    }
+    aside{
+        background-color: var(--dark-blue);
+        height: 16px;
+    }
+}

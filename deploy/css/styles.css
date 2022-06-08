@@ -432,7 +432,7 @@ body h2 {
   }
 }
 body h3 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.125rem;
 }
 @media (min-width: 1200px) {
@@ -619,6 +619,11 @@ section #two {
 #about #about-us {
   padding-top: 200px;
 }
+@media (min-width: 1024px) {
+  #about #about-us p {
+    width: 70%;
+  }
+}
 
 section #line-1 {
   background-color: var(--dark-blue);
@@ -739,9 +744,103 @@ section #line-2 {
 /* =============
     Safety
 ============= */
+#safety {
+  color: #314DE0;
+  margin: 100px 0;
+}
+#safety > div section {
+  text-align: center;
+}
+#safety > div section p {
+  margin: 50px;
+  font-weight: 700;
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  #safety > div section p {
+    margin: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  #safety > div section p {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  #safety > div section p {
+    font-size: 6rem;
+  }
+}
+
 /* =============
     Scams
 ============= */
+#avoid-scams {
+  color: var(--footer-blue);
+}
+#avoid-scams > div #wtd {
+  text-align: center;
+}
+#avoid-scams > div #wtd ul {
+  margin: 50px;
+}
+@media (min-width: 768px) {
+  #avoid-scams > div #wtd ul {
+    margin: 100px;
+  }
+}
+#avoid-scams > div #wtd ul li {
+  border-bottom: var(--footer-blue) solid 1px;
+}
+@media (min-width: 768px) {
+  #avoid-scams > div #wtd ul li {
+    margin: 20px;
+  }
+}
+#avoid-scams > div #wtd ul li p {
+  font-weight: 700;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  #avoid-scams > div #wtd ul li p {
+    padding-bottom: 40px;
+  }
+}
+#avoid-scams > div #wtd ul #voice-mails {
+  border-color: transparent;
+}
+#avoid-scams > div #line {
+  background-color: var(--mid-blue);
+  height: 2px;
+  margin: 50px 0;
+}
+#avoid-scams > div #rec {
+  margin: 50px;
+}
+@media (min-width: 768px) {
+  #avoid-scams > div #rec {
+    margin: 100px;
+  }
+}
+#avoid-scams > div #rec > div ul li {
+  margin: 16px 0;
+}
+#avoid-scams > div #rec > div ul li p {
+  width: 70%;
+}
+
+.title {
+  background-color: var(--mid-blue);
+  color: var(--white);
+}
+.title h2 {
+  padding: 16px 0;
+}
+.title aside {
+  background-color: var(--dark-blue);
+  height: 16px;
+}
+
 /* =============
     Account
 ============= */
