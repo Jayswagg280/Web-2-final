@@ -829,6 +829,70 @@ section #line-2 {
   width: 70%;
 }
 
+#examples {
+  margin: 200px 0;
+}
+@media (min-width: 1200px) {
+  #examples {
+    margin: 100px;
+  }
+}
+@media (min-width: 768px) {
+  #examples > div #email {
+    display: flex;
+    display: grid;
+    grid-template-columns: 8% auto 8%;
+  }
+}
+#examples > div #email #left {
+  margin-top: 100px;
+}
+#examples > div #email #right {
+  margin-top: 100px;
+  margin-left: auto;
+}
+#examples > div #email section {
+  padding: 50px;
+  color: var(--white);
+  background-color: var(--mid-blue);
+  border-radius: 8px;
+}
+@media (min-width: 768px) {
+  #examples > div #email section {
+    padding: 0px;
+  }
+}
+@media (min-width: 768px) {
+  #examples > div #email section p {
+    margin: 50px;
+  }
+}
+#examples > div #dots {
+  display: flex;
+  gap: 40px;
+  margin: 50px;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  #examples > div #dots {
+    margin: 100px;
+  }
+}
+
+.blue-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+}
+
+.grey-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+
 .title {
   background-color: var(--mid-blue);
   color: var(--white);

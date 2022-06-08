@@ -61,9 +61,88 @@
     }
 }
 #examples{
+    margin: 200px 0;
+    @include xl{
+        margin: 100px;
+    }
+    > div {
+      
 
+        // @include md{
+        //   grid-area: events;
+        // }
+    
+       
+    
+        #outer-grid {
+         
+          
+    
+          
+      }
+    
+          #email{
+           
+  
+    
+            @include md {
+              display: flex;
+              display: grid;
+              grid-template-columns: 8% auto 8%;
+            }
+  
+            #left{
+              margin-top: 100px;
+            }
+            #right{
+              margin-top: 100px;
+              margin-left: auto;
+            }
+            section{
+                padding: 50px;
+                @include md{
+                    padding: 0px;
+                }
+                color: var(--white);
+                background-color: var(--mid-blue);
+                border-radius: 8px;
+                p{
+                    @include md{
+                        margin: 50px;
+                    }
+                    
+                }
+                  
+                  
+              }
+            }
+
+            #dots{
+                display: flex;
+                gap: 40px;
+                margin: 50px;
+                justify-content: center;
+                @include md{
+                    margin: 100px;
+                }
+            }
+          }
+
+        
+      }
+
+.blue-dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--dark-blue);
 }
-
+.grey-dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
 .title{
     background-color: var(--mid-blue);
     
