@@ -992,9 +992,9 @@ section #two {
   color: var(--white);
 }
 #title h2 {
-  padding: 16px;
+  padding: 16px 0;
 }
-#title > div {
+#title aside {
   background-color: var(--dark-blue);
   height: 16px;
 }
