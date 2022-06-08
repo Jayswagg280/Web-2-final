@@ -17,6 +17,7 @@ html {
   --mid-blue: #72A3FA;
   --dark-blue: #465FE3;
   --footer-blue: #304093;
+  --deep-purp: #29367E;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -631,6 +632,110 @@ section #line-2 {
 /* =============
     Postings
 ============= */
+#postings {
+  margin: 100px 0px;
+}
+#postings #title {
+  text-align: center;
+  color: #29367E;
+}
+#postings #title h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+@media (min-width: 1024px) {
+  #postings #title h2 {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 1440px) {
+  #postings #title h2 {
+    font-size: 3rem;
+  }
+}
+#postings #steps > div {
+  margin-bottom: -50px;
+}
+@media (min-width: 768px) {
+  #postings #steps > div {
+    text-align: center;
+  }
+}
+#postings #steps > div ul {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
+@media (min-width: 768px) {
+  #postings #steps > div ul {
+    grid-template-columns: auto auto auto;
+  }
+}
+#postings #steps > div ul li {
+  color: #29367E;
+}
+#postings #steps > div ul li h1 {
+  font-weight: 400;
+  font-size: 9rem;
+  margin-bottom: -80px;
+  opacity: 35%;
+}
+@media (min-width: 768px) {
+  #postings #steps > div ul li h1 {
+    font-size: 18rem;
+    margin-bottom: -150px;
+  }
+}
+#postings #steps > div ul li p {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  #postings #steps > div ul li p {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 1440px) {
+  #postings #steps > div ul li p {
+    font-size: 2.25rem;
+  }
+}
+#postings #steps > div ul #step-1 h1 {
+  margin-left: 30px;
+}
+@media (min-width: 768px) {
+  #postings #steps > div ul #step-1 h1 {
+    margin-left: 0;
+  }
+}
+#postings #steps > div ul #step-2 {
+  margin-left: 45%;
+}
+@media (min-width: 768px) {
+  #postings #steps > div ul #step-2 {
+    margin-left: 0;
+  }
+}
+#postings #steps > div ul #step-3 {
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  #postings #steps > div ul #step-3 {
+    margin-left: 0;
+  }
+}
+#postings #city-2 {
+  background-image: url("../img/postings/city-2.png");
+  height: 70vh;
+}
+#postings section #line-1 {
+  background-color: var(--mid-blue);
+  height: 16px;
+}
+#postings section #line-2 {
+  background-color: var(--light-blue);
+  height: 16px;
+}
+
 /* =============
     Safety
 ============= */

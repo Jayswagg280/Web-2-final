@@ -72,6 +72,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/postings\/city-2.png" : {
+      "ft" : 32768,
+      "iS" : 42850,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/postings\/city-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/scams\/left-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
