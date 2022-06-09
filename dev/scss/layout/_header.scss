@@ -22,14 +22,14 @@ background-color: var(--white);
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-               
+                @include lg{
+                    display: none;
+                }
                 button{
                     border: none;
                     padding: 16px;
                     background-color: transparent;
-                    @include lg{
-                        display: none;
-                    }
+                    
                     
                     
                 }

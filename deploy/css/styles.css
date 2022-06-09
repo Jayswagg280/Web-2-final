@@ -596,7 +596,7 @@ nav #links {
 @media (min-width: 1024px) {
   nav #links {
     display: block;
-    margin-top: -70px;
+    margin-top: 40px;
   }
 }
 nav #links ul {
@@ -670,15 +670,15 @@ nav #links ul li:first-child {
   justify-content: flex-end;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  #header #nav-bar > div #burger {
+    display: none;
+  }
+}
 #header #nav-bar > div #burger button {
   border: none;
   padding: 16px;
   background-color: transparent;
-}
-@media (min-width: 1024px) {
-  #header #nav-bar > div #burger button {
-    display: none;
-  }
 }
 #header section #line-1 {
   background-color: var(--dark-blue);
