@@ -1,3 +1,82 @@
 /* =============
     Navigation
 ============= */
+
+nav{
+    display: none;
+	background-color: var(--mid-blue);
+	height: 100vh;
+	padding: 16px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20vw;
+	@include lg {
+		background-color: var(--white);
+		display: block;
+		height: 100%;
+		padding: 0;
+		position: relative;
+		width: 100%;
+	}
+    aside {
+		display: flex;
+		justify-content: flex-end;
+		button {
+			background-color: transparent;
+			border: none;
+		}
+	}
+    #links{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        @include lg{
+            display: block;
+            margin-top: -70px;
+        }
+
+        ul {
+            height: 100%;
+            padding-top: 20%;
+            @include lg {
+                align-items: center;
+                display: flex;
+                justify-content: flex-end;
+                padding-top: 0;
+            }
+            li {
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 24px;
+                text-align: right;
+                @include lg {
+                    border-left: 1px solid var(--tan);
+                    margin-bottom: 0;
+                    margin-left: 16px;
+                    padding-left: 24px;
+                }
+                a:link,
+                a:visited {
+                    color: var(--white);
+                    font-size: rem-calc(20);
+                    font-weight: 300;
+                    text-decoration: none;
+                    transition: 0.25s;
+                    @include lg {
+                        color: var(--dark-blue);
+                    }
+                    &:hover,
+                    &:active {
+                        color: var(--light-blue);
+                    }
+                }
+                &:first-child {
+                    border: none;
+                }
+            }
+        }
+    }
+    
+}
+

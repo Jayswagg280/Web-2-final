@@ -3,12 +3,38 @@
 ============= */
 
 #header{
-    section{
-        display: flex;
-        padding: 12px 0px;
-        #right-icons{
-            margin-left: auto;
-        }
+position: fixed;
+top: 0;
+width: 100%;
+background-color: var(--white);
+
+#nav-bar{
+   >div{
+
+    display: grid;
+        grid-template-columns: 50% auto;
+    #header-container{
+        align-items: center;
+        padding: 36px 0px;
+        
+    }
+            #burger{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+               
+                button{
+                    border: none;
+                    padding: 16px;
+                    background-color: transparent;
+                    @include lg{
+                        display: none;
+                    }
+                    
+                    
+                }
+            }
+    
     }
 }
 section{
@@ -20,4 +46,5 @@ section{
         background-color: var(--mid-blue);
         height: 16px;
     }
+}
 }

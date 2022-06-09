@@ -401,6 +401,16 @@ ul li {
   }
 }
 
+@media (min-width: 1024px) {
+  .hide-for-lg {
+    display: none;
+  }
+}
+
+.show-menu {
+  display: block !important;
+}
+
 /* =============
     Typography
 ============= */
@@ -474,6 +484,7 @@ p {
 button {
   margin: 0px;
   padding: 0px;
+  cursor: pointer;
 }
 
 .lb-tab {
@@ -549,22 +560,131 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+  background-color: var(--mid-blue);
+  height: 100vh;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20vw;
+}
+@media (min-width: 1024px) {
+  nav {
+    background-color: var(--white);
+    display: block;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+nav aside {
+  display: flex;
+  justify-content: flex-end;
+}
+nav aside button {
+  background-color: transparent;
+  border: none;
+}
+nav #links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+@media (min-width: 1024px) {
+  nav #links {
+    display: block;
+    margin-top: -70px;
+  }
+}
+nav #links ul {
+  height: 100%;
+  padding-top: 20%;
+}
+@media (min-width: 1024px) {
+  nav #links ul {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+  }
+}
+nav #links ul li {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  nav #links ul li {
+    border-left: 1px solid var(--tan);
+    margin-bottom: 0;
+    margin-left: 16px;
+    padding-left: 24px;
+  }
+}
+nav #links ul li a:link,
+nav #links ul li a:visited {
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.25s;
+}
+@media (min-width: 1024px) {
+  nav #links ul li a:link,
+nav #links ul li a:visited {
+    color: var(--dark-blue);
+  }
+}
+nav #links ul li a:link:hover, nav #links ul li a:link:active,
+nav #links ul li a:visited:hover,
+nav #links ul li a:visited:active {
+  color: var(--light-blue);
+}
+nav #links ul li:first-child {
+  border: none;
+}
+
 /* =============
     Header
 ============= */
-#header section {
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--white);
+}
+#header #nav-bar > div {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#header #nav-bar > div #header-container {
+  align-items: center;
+  padding: 36px 0px;
+}
+#header #nav-bar > div #burger {
   display: flex;
-  padding: 12px 0px;
+  justify-content: flex-end;
+  align-items: center;
 }
-#header section #right-icons {
-  margin-left: auto;
+#header #nav-bar > div #burger button {
+  border: none;
+  padding: 16px;
+  background-color: transparent;
 }
-
-section #line-1 {
+@media (min-width: 1024px) {
+  #header #nav-bar > div #burger button {
+    display: none;
+  }
+}
+#header section #line-1 {
   background-color: var(--dark-blue);
   height: 16px;
 }
-section #line-2 {
+#header section #line-2 {
   background-color: var(--mid-blue);
   height: 16px;
 }
@@ -609,6 +729,7 @@ section #two {
     Search
 ============= */
 #search {
+  margin-top: 136px;
   margin-bottom: 100px;
   color: var(--white);
   background-image: url("../img/search/hero-1-city.jpg");
