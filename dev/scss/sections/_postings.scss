@@ -37,14 +37,15 @@
                 }
                 li{
                     
-                    color: #29367E;
+                    
                     
 
                     h1{
+                        color: #B9BFDD;
                         font-weight: 400;
                         font-size: rem-calc(144);
                         margin-bottom: -80px;
-                        opacity: 35%;
+                        
                          
                         @include md{
                             font-size: rem-calc(288);
@@ -53,6 +54,7 @@
                 
                     }
                     p {
+                        color: #29367E;
                         font-weight: 700;
                         font-size: rem-calc(14);
                         @include md{

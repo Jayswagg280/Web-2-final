@@ -795,14 +795,11 @@ section #line-2 {
     grid-template-columns: auto auto auto;
   }
 }
-#postings #steps > div ul li {
-  color: #29367E;
-}
 #postings #steps > div ul li h1 {
+  color: #B9BFDD;
   font-weight: 400;
   font-size: 9rem;
   margin-bottom: -80px;
-  opacity: 35%;
 }
 @media (min-width: 768px) {
   #postings #steps > div ul li h1 {
@@ -811,6 +808,7 @@ section #line-2 {
   }
 }
 #postings #steps > div ul li p {
+  color: #29367E;
   font-weight: 700;
   font-size: 0.875rem;
 }
