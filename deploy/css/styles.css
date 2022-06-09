@@ -681,11 +681,6 @@ nav #links ul li:first-child {
   padding: 16px;
   background-color: transparent;
 }
-@media (min-width: 1024px) {
-  #header #nav-bar > div #burger button {
-    display: none;
-  }
-}
 #header section #line-1 {
   background-color: var(--dark-blue);
   height: 16px;
