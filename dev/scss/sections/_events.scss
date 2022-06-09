@@ -1,0 +1,229 @@
+/* =============
+    Events
+============= */
+#events{
+  margin-bottom: 100px;
+    // @include md{
+    //     display: grid;
+    //     //grid-template-columns: auto 80vw auto;
+
+    //     grid-template-areas: ". events .";
+    // }
+
+    // @include xl{
+    //     grid-template-columns: auto 1200px auto;
+    // }
+
+
+    > div {
+      
+
+      // @include md{
+      //   grid-area: events;
+      // }
+  
+     
+  
+      #outer-grid {
+       
+        
+  
+        #top {
+          
+          @include md {
+            display: grid;
+            grid-template-columns: 8% auto 8%;
+          }
+          display: grid;
+          grid-template-columns: 50% auto;
+
+          color: var(--dark-blue);
+          display: flex;
+          padding: 20px 0;
+          width: 100%;
+          box-sizing: border-box;
+          
+            aside{
+              margin-left: auto;
+              ul {
+                display: flex;
+                margin-left: auto;
+                li {
+                 
+                }
+              }
+            }
+            
+  
+        }
+    }
+  
+        #button{
+         
+
+  
+          @include md {
+            display: flex;
+            display: grid;
+            grid-template-columns: 8% auto 8%;
+          }
+
+          #left{
+            margin-top: 220px;
+          }
+          #right{
+            margin-top: 220px;
+            margin-left: auto;
+          }
+          section{
+              border: 4px solid var(--mid-blue);
+              border-radius: 8px;
+
+            height: 100%;
+            ul{
+              border: 4px;
+              border-color: var(--mid-blue);
+              border-radius: 8px;
+              @include md{
+                  height: 60vh;
+              }
+
+                @include md{
+                    display: grid;
+                    grid-template-columns: auto auto auto auto auto auto auto;
+
+                }
+                background-color: var($white);
+                li{
+                    aside{
+                      width: 60px;
+                      padding:16px 0px;
+                      text-align: center;
+                      @include md{
+                        width: 100%;
+                      }
+                      
+                        color: var(--white);
+                        background-color: var(--mid-blue);
+                    }
+                    display: flex;
+                    @include md{
+                      flex-direction: column;
+                    }
+                    p{
+                    padding-top: 20px;
+                    
+                    text-align: center;
+                    color: var(--mid-blue);
+                    @include md{
+                      padding-top: 0px;
+                      padding-left: 0px;
+                      margin: 0px 10px;
+                    }
+                    }
+
+
+                }
+                #sun{
+                  @include md{
+                    text-align: center;
+                  }
+                  p{
+                    margin-left: auto;
+                    margin-right: 10%;
+                    @include md{
+                      padding: 0px;
+                      margin-left: 0px;
+                      margin-right: 0px;
+                      margin-top: 320px;
+                    }
+                  }
+                  
+                }
+                #mon{
+                  @include md{
+                    text-align: center;
+                  }
+                  p{
+                    margin-left: 40%;
+                    @include md{
+                      margin-left: 0px;
+                      margin-top: 170px;  
+                    }
+                  }
+                  
+                }
+                #tue{
+                  @include md{
+                    text-align: center;
+                  }
+                  p{
+                    margin-left: 10%;
+                    @include md{
+                      margin-left: 0px;
+                      margin-top: 70px;  
+                    }
+                  }
+                  
+                }
+                #wed{
+                  @include md{
+                    text-align: center;
+                  }
+                  p{
+                    margin-left: 50%;
+                    @include md{
+                      margin-left: 0px;
+                      margin-top: 220px;  
+                    }
+                  }
+                  
+                }
+                #thu{
+                  @include md{
+                    text-align: center;
+                  }
+                  p{
+                    margin-left: 60%;
+                    @include md{
+                      margin-left: 0px;
+                      margin-top: 250px;  
+                    }
+                  }
+                  
+                }
+                #fri{
+                  @include md{
+                    text-align: center;
+                  }
+                  p{
+                    margin-left: auto;
+                    margin-right: 5%;
+                    @include md{
+                      margin-left: 0px;
+                      margin-right: 0px;
+                      margin-top: auto;  
+                    }
+                  }
+                  
+                }
+                #sat{
+                  @include md{
+                    text-align: center;
+                  }
+                  p{
+                    margin-left: 10%;
+                    @include md{
+                      margin-left: 0px;
+                      margin-top: 70px;  
+                    }
+                  }
+                  
+                }
+                
+            }
+          }
+        }
+      
+    }
+}

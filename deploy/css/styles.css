@@ -10,6 +10,15 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --white: #fff;
+  --baby-blue: #DFEBF8;
+  --light-blue: #C8E2FE;
+  --mid-blue: #72A3FA;
+  --dark-blue: #465FE3;
+  --footer-blue: #304093;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -352,13 +361,181 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0px;
+}
+ul li {
+  list-style: none;
+}
+
+.global-grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". global-grid .";
+}
+@media (min-width: 1440px) {
+  .global-grid {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+.global-grid > div {
+  grid-area: global-grid;
+}
+
+.show-for-md {
+  display: none;
+}
+@media (min-width: 768px) {
+  .show-for-md {
+    display: block;
+  }
+}
+
+.hide-for-md {
+  display: block;
+}
+@media (min-width: 768px) {
+  .hide-for-md {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hide-for-lg {
+    display: none;
+  }
+}
+
+.show-menu {
+  display: block !important;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Tinos", serif;
+}
+body h1 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  body h1 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  body h1 {
+    font-size: 6rem;
+  }
+}
+body h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+@media (min-width: 1200px) {
+  body h2 {
+    font-size: 2.25rem;
+  }
+}
+body h3 {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+@media (min-width: 1200px) {
+  body h3 {
+    font-size: 1.5rem;
+  }
+}
+body h4 {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+@media (min-width: 1200px) {
+  body h4 {
+    font-size: 1rem;
+  }
+}
+body p {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+@media (min-width: 1200px) {
+  body p {
+    font-size: 1.125rem;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
 /* =============
     Buttons
 ============= */
 button {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.lb-tab {
+  color: var(--white);
+  background-color: var(--mid-blue);
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .lb-tab {
+    height: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .lb-tab {
+    height: 60px;
+  }
+}
+
+.db-tab {
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .db-tab {
+    height: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .db-tab {
+    height: 60px;
+  }
+}
+
+.service {
+  color: var(--white);
+  background-color: var(--mid-blue);
+  border-radius: 8px;
+  text-align: center;
   border: none;
 }
 
@@ -383,14 +560,747 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+  background-color: var(--mid-blue);
+  height: 100vh;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20vw;
+}
+@media (min-width: 1024px) {
+  nav {
+    background-color: var(--white);
+    display: block;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+nav aside {
+  display: flex;
+  justify-content: flex-end;
+}
+nav aside button {
+  background-color: transparent;
+  border: none;
+}
+nav #links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+@media (min-width: 1024px) {
+  nav #links {
+    display: block;
+    margin-top: 40px;
+  }
+}
+nav #links ul {
+  height: 100%;
+  padding-top: 20%;
+}
+@media (min-width: 1024px) {
+  nav #links ul {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+  }
+}
+nav #links ul li {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  nav #links ul li {
+    border-left: 1px solid var(--tan);
+    margin-bottom: 0;
+    margin-left: 16px;
+    padding-left: 24px;
+  }
+}
+nav #links ul li a:link,
+nav #links ul li a:visited {
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.25s;
+}
+@media (min-width: 1024px) {
+  nav #links ul li a:link,
+nav #links ul li a:visited {
+    color: var(--dark-blue);
+  }
+}
+nav #links ul li a:link:hover, nav #links ul li a:link:active,
+nav #links ul li a:visited:hover,
+nav #links ul li a:visited:active {
+  color: var(--light-blue);
+}
+nav #links ul li:first-child {
+  border: none;
+}
+
 /* =============
     Header
 ============= */
-header {
-  color: red;
-  font-size: 0.75rem;
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--white);
+}
+#header #nav-bar > div {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#header #nav-bar > div #header-container {
+  align-items: center;
+  padding: 36px 0px;
+}
+#header #nav-bar > div #burger {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  #header #nav-bar > div #burger {
+    display: none;
+  }
+}
+#header #nav-bar > div #burger button {
+  border: none;
+  padding: 16px;
+  background-color: transparent;
+}
+#header section #line-1 {
+  background-color: var(--dark-blue);
+  height: 16px;
+}
+#header section #line-2 {
+  background-color: var(--mid-blue);
+  height: 16px;
 }
 
 /* =============
     Footer
 ============= */
+section #one {
+  background-color: var(--light-blue);
+  height: 16px;
+}
+section #two {
+  background-color: var(--dark-blue);
+  height: 8px;
+}
+
+#footer {
+  background-color: var(--footer-blue);
+  color: var(--white);
+  padding: 20px 0px;
+}
+#footer #major-links {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border-bottom: 1px solid var(--white);
+  margin-bottom: 20px;
+}
+#footer #major-links #left {
+  margin-bottom: 20px;
+}
+#footer #major-links #center {
+  text-align: center;
+}
+#footer #major-links #right {
+  text-align: right;
+}
+#footer #bottom-row {
+  display: flex;
+}
+
+/* =============
+    Search
+============= */
+#search {
+  margin-top: 136px;
+  margin-bottom: 100px;
+  color: var(--white);
+  background-image: url("../img/search/hero-1-city.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 70vh;
+}
+#search #search-top {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+#search #search-top button {
+  color: var(--white);
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 8px 12px;
+}
+#search #search-bottom {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 160px;
+}
+@media (min-width: 768px) {
+  #search #search-bottom {
+    width: 50%;
+  }
+}
+#search #search-bottom form div {
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 60px;
+  padding: 10px;
+  margin-top: 50px;
+  display: flex;
+}
+#search #search-bottom form div input {
+  background-color: transparent;
+  border: none;
+  padding: 0px 10px;
+}
+#search #search-bottom form div button {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  padding: 0px;
+}
+#search #search-bottom form div button img {
+  width: 60%;
+}
+@media (min-width: 768px) {
+  #search #search-bottom form div button img {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  #search #search-bottom form div button img {
+    width: 80%;
+  }
+}
+@media (min-width: 1440px) {
+  #search #search-bottom form div button img {
+    width: 100%;
+  }
+}
+
+/* =============
+    Events
+============= */
+#events {
+  margin-bottom: 100px;
+}
+#events > div #outer-grid #top {
+  display: grid;
+  grid-template-columns: 50% auto;
+  color: var(--dark-blue);
+  display: flex;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  #events > div #outer-grid #top {
+    display: grid;
+    grid-template-columns: 8% auto 8%;
+  }
+}
+#events > div #outer-grid #top aside {
+  margin-left: auto;
+}
+#events > div #outer-grid #top aside ul {
+  display: flex;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  #events > div #button {
+    display: flex;
+    display: grid;
+    grid-template-columns: 8% auto 8%;
+  }
+}
+#events > div #button #left {
+  margin-top: 220px;
+}
+#events > div #button #right {
+  margin-top: 220px;
+  margin-left: auto;
+}
+#events > div #button section {
+  border: 4px solid var(--mid-blue);
+  border-radius: 8px;
+  height: 100%;
+}
+#events > div #button section ul {
+  border: 4px;
+  border-color: var(--mid-blue);
+  border-radius: 8px;
+  background-color: var(#fff);
+}
+@media (min-width: 768px) {
+  #events > div #button section ul {
+    height: 60vh;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+  }
+}
+#events > div #button section ul li {
+  display: flex;
+}
+#events > div #button section ul li aside {
+  width: 60px;
+  padding: 16px 0px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--mid-blue);
+}
+@media (min-width: 768px) {
+  #events > div #button section ul li aside {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul li {
+    flex-direction: column;
+  }
+}
+#events > div #button section ul li p {
+  padding-top: 20px;
+  text-align: center;
+  color: var(--mid-blue);
+}
+@media (min-width: 768px) {
+  #events > div #button section ul li p {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0px 10px;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #sun {
+    text-align: center;
+  }
+}
+#events > div #button section ul #sun p {
+  margin-left: auto;
+  margin-right: 10%;
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #sun p {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 320px;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #mon {
+    text-align: center;
+  }
+}
+#events > div #button section ul #mon p {
+  margin-left: 40%;
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #mon p {
+    margin-left: 0px;
+    margin-top: 170px;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #tue {
+    text-align: center;
+  }
+}
+#events > div #button section ul #tue p {
+  margin-left: 10%;
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #tue p {
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #wed {
+    text-align: center;
+  }
+}
+#events > div #button section ul #wed p {
+  margin-left: 50%;
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #wed p {
+    margin-left: 0px;
+    margin-top: 220px;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #thu {
+    text-align: center;
+  }
+}
+#events > div #button section ul #thu p {
+  margin-left: 60%;
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #thu p {
+    margin-left: 0px;
+    margin-top: 250px;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #fri {
+    text-align: center;
+  }
+}
+#events > div #button section ul #fri p {
+  margin-left: auto;
+  margin-right: 5%;
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #fri p {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: auto;
+  }
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #sat {
+    text-align: center;
+  }
+}
+#events > div #button section ul #sat p {
+  margin-left: 10%;
+}
+@media (min-width: 768px) {
+  #events > div #button section ul #sat p {
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+}
+
+/* =============
+    Tabs
+============= */
+#tabs {
+  margin-bottom: 100px;
+}
+#tabs #tab-section {
+  box-sizing: border-box;
+}
+#tabs #tab-section ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 8px;
+}
+@media (min-width: 768px) {
+  #tabs #tab-section ul {
+    gap: 12px;
+  }
+}
+@media (min-width: 1440px) {
+  #tabs #tab-section ul {
+    gap: 16px;
+  }
+}
+#tabs #tab-section ul li p {
+  font-weight: 400;
+  font-size: 0.5625rem;
+}
+@media (min-width: 768px) {
+  #tabs #tab-section ul li p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  #tabs #tab-section ul li p {
+    font-size: 1.5rem;
+  }
+}
+#tabs #buttons {
+  margin-top: 10px;
+  background-color: var(--light-blue);
+  border: 6px solid var(--mid-blue);
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+}
+#tabs #buttons ul {
+  gap: 8px;
+  margin: 12px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(6, auto);
+}
+#tabs #buttons ul li img {
+  width: 30px;
+}
+@media (min-width: 768px) {
+  #tabs #buttons ul li img {
+    width: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  #tabs #buttons ul li img {
+    width: 76px;
+  }
+}
+@media (min-width: 768px) {
+  #tabs #buttons ul {
+    margin: 18px;
+  }
+}
+@media (min-width: 768px) {
+  #tabs #buttons ul {
+    gap: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  #tabs #buttons ul {
+    gap: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  #tabs #buttons ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: repeat(4, auto);
+  }
+}
+#tabs #buttons button {
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.5625rem;
+}
+@media (min-width: 768px) {
+  #tabs #buttons button {
+    height: 160px;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1440px) {
+  #tabs #buttons button {
+    height: 170px;
+  }
+}
+
+/* =============
+    Craigs
+============= */
+#title {
+  background-color: var(--mid-blue);
+  color: var(--white);
+}
+#title h2 {
+  padding: 16px 0;
+}
+#title aside {
+  background-color: var(--dark-blue);
+  height: 16px;
+}
+
+#craigs {
+  color: var(--white);
+  background-color: var(--baby-blue);
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+#craigs aside {
+  margin-bottom: 20px;
+  background-color: var(--mid-blue);
+  border-radius: 8px;
+}
+#craigs aside #map {
+  background-image: url("../img/craigs-near-me/map.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid var(--dark-blue);
+  border-radius: 8px;
+  border-radius: 8px;
+}
+#craigs aside #map-icons {
+  padding: 0px 8px;
+  display: flex;
+}
+#craigs aside #map-icons section {
+  margin-left: auto;
+}
+#craigs #listings ul {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+}
+#craigs #listings ul li {
+  background-color: var(--dark-blue);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+#see-more > div {
+  margin-top: -300px;
+  position: relative;
+  background: linear-gradient(0deg, white 46%, rgba(255, 255, 255, 0.5) 76%, rgba(255, 255, 255, 0) 100%);
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  #see-more > div {
+    height: 300px;
+  }
+}
+#see-more > div button {
+  background-color: transparent;
+  border: none;
+}
+
+#listing1 {
+  background-image: url("../img/craigs-near-me/furn-1.jpg");
+  height: 100px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  #listing1 {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  #listing1 {
+    height: 300px;
+  }
+}
+
+#listing2 {
+  background-image: url("../img/craigs-near-me/furn-2.jpg");
+  height: 100px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  #listing2 {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  #listing2 {
+    height: 300px;
+  }
+}
+
+#listing3 {
+  background-image: url("../img/craigs-near-me/furn-3.jpg");
+  height: 100px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  #listing3 {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  #listing3 {
+    height: 300px;
+  }
+}
+
+#listing4 {
+  background-image: url("../img/craigs-near-me/furn-4.jpg");
+  height: 100px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  #listing4 {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  #listing4 {
+    height: 300px;
+  }
+}
+
+#listing5 {
+  background-image: url("../img/craigs-near-me/furn-5.jpg");
+  height: 100px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  #listing5 {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  #listing5 {
+    height: 300px;
+  }
+}
+
+#listing6 {
+  background-image: url("../img/craigs-near-me/furn-6.jpg");
+  height: 100px;
+  background-position: center;
+  border: 8px solid var(--dark-blue);
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+@media (min-width: 768px) {
+  #listing6 {
+    height: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  #listing6 {
+    height: 300px;
+  }
+}
+
+.listing-info {
+  border: 3px solid var(--white);
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 8px;
+}
